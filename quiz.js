@@ -548,6 +548,61 @@ const fragen = [
     ],
     "korrekte_antwort": ["A", "C"],
     "erlaeuterung": "Ein 'try'-Block muss einen entsprechenden 'except'-Block haben (A), und Ausnahmen können Funktions- und Modulgrenzen überschreiten und durch die Aufrufkette wandern, um nach einer passenden 'except'-Klausel zu suchen (C)."
+},
+  {
+    "frage": "Which of the following statements are true. (Select two answers)",
+    "optionen": [
+        "A: isword() checks if a string contains only alpha numeric characters",
+        "B: strings are immutable and can be sliced",
+        "C: Python strings can be concatenated with the * operator",
+        "D: triple quotes are used for multiline comments"
+    ],
+    "korrekte_antwort": ["B", "D"],
+    "erlaeuterung": "Strings in Python sind unveränderlich (immutable) und können in Teilstrings (slices) aufgeteilt werden (B). Dreifache Anführungszeichen werden häufig für mehrzeilige Kommentare oder Strings verwendet (D)."
+},
+  {
+    "frage": "Which of the following Python string methods are invoked correctly? (Select two answers)",
+    "optionen": [
+        "A: 'Hello World!'.replace('i', 'e')",
+        "B: 'Hello World!'.join()",
+        "C: 'Hello World!'.sort()",
+        "D: 'Hello World!'.center(20, 'a')"
+    ],
+    "korrekte_antwort": ["A", "D"],
+    "erlaeuterung": "Die Methoden 'replace()' und 'center()' sind korrekt aufgerufen. 'replace()' ersetzt Zeichen im String und 'center()' zentriert den String in einem Feld einer bestimmten Breite."
+},
+  {
+    "frage": "What is the expected output of the following snippet?\n\nx = False\ny = '0'\nprint(x >= y)",
+    "optionen": [
+        "A: True",
+        "B: False",
+        "C: None",
+        "D: The comparison causes a runtime exception"
+    ],
+    "korrekte_antwort": "D",
+    "erlaeuterung": "Der Versuch, einen Boolean-Wert mit einem String zu vergleichen, führt in Python zu einer Laufzeitexception, da diese Datentypen nicht direkt vergleichbar sind."
+},
+  {
+    "frage": "Which of the following expressions evaluate to True? (Select two answers)",
+    "optionen": [
+        "A: \"good\"[:3] == \"dog\"[::-1]",
+        "B: len(300) == 3",
+        "C: chr(32) == \" \"",
+        "D: len(\"two dogs\") == 8"
+    ],
+    "korrekte_antwort": ["C", "D"],
+    "erlaeuterung": "Der Ausdruck 'chr(32) == \" \"' ist wahr, da 'chr(32)' ein Leerzeichen darstellt. Der Ausdruck 'len(\"two dogs\") == 8' ist ebenfalls wahr, da der String 'two dogs' 8 Zeichen lang ist."
+},
+  {
+    "frage": "Which of the following is a Python string method which removes trailing whitespace?",
+    "optionen": [
+        "A: replace()",
+        "B: split()",
+        "C: rstrip()",
+        "D: join()"
+    ],
+    "korrekte_antwort": "C",
+    "erlaeuterung": "Die Methode 'rstrip()' entfernt nachgestellte Leerzeichen (trailing whitespace) aus einem String. Die anderen Methoden haben andere Verwendungen und Funktionen."
 }
 
 
