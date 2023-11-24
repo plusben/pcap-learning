@@ -31,8 +31,8 @@ Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die `LICENSE`-Datei f�
 ## Autor
 
 Benedikt Splinter
-- GitHub: [https://github.com/plusben/]
-- 
+- GitHub: [(https://github.com/plusben/)]
+
 ## Hinweis
 
 Dies ist ein einfaches Beispielprojekt und dient nur zu Demonstrationszwecken. Sie können es an Ihre Bedürfnisse anpassen und erweitern.
