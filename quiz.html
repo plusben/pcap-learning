@@ -9,6 +9,9 @@
     .wrong-answer {
         color: red;
     }
+    .correct-answer {
+        color: green;
+    }
     pre {
     white-space: pre-wrap;       /* CSS 3 */
     white-space: -moz-pre-wrap;  /* Mozilla, seit 1999 */
@@ -24,9 +27,11 @@
 <div class="container mt-5">
     <div id="quiz">
         <h2 id="question-text"></h2>
+        <hr>
         <div id="options-container"></div>
         <!-- Fragen werden hier dynamisch geladen -->
     </div>
+    <hr>
 <button class="btn btn-primary mt-3" id="nextQuestion">Nächste Frage</button>
 <button class="btn btn-primary mt-3" id="restart-quiz" style="display: none;">Neu starten</button>
     <hr>
