@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCAP Quiz</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .wrong-answer {
+        color: red;
+    }
+</style>
+
+
+</head>
+<body>
+<div class="container mt-5">
+    <div id="quiz">
+        <h2 id="question-text"></h2>
+        <div id="options-container"></div>
+        <!-- Fragen werden hier dynamisch geladen -->
+    </div>
+<button class="btn btn-primary mt-3" id="nextQuestion">Nächste Frage</button>
+<button class="btn btn-primary mt-3" id="restart-quiz" style="display: none;">Neu starten</button>
+    <hr>
+    <!-- Titelzeile für falsch beantwortete Fragen -->
+<hr>    <div id="wrong-answers-container">
+        <!-- Hier werden die falsch beantworteten Fragen eingefügt -->
+    </div>
+
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="quiz.js"></script> <!-- Ihr JavaScript-Code für das Quiz -->
+</body>
+</html>
